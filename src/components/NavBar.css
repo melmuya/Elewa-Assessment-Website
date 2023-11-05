@@ -1,0 +1,34 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* Style the overall navbar container */
+.navbar {
+    
+    display: flex; /* Display children elements horizontally */
+    align-items: right; /* Align children vertically in the center */
+    justify-content: space-between; /* Distribute space between children elements */
+    padding: 10px 20px; /* Add padding to the navbar */
+  }
+  
+  /* Style the Elewa Group title */
+  .navbar h3 {
+    margin: 0; /* Remove default margin for the title */
+    color: white; /* Set the text color to white */
+  }
+  
+  /* Style the navigation links */
+  .navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link text color to white */
+    margin-right: 15px; /* Add space between links */
+  }
+  
+  /* Style the navigation links on hover */
+  .navbar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Style the horizontal line */
+ 

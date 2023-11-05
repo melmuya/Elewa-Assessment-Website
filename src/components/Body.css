@@ -1,0 +1,25 @@
+.background {
+    background-image: url(../assets/dark-to-light_xrat5g.jpg);
+    width: 1800px;
+    height: 1137px;
+    background-size: cover;
+} 
+
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100vh; /* This will center content vertically in the middle of the page */
+  }
+  
+  .background > div {
+    text-align: left; /* Align text to the left */
+  }
+  
+  .background h3,
+  .background h1 {
+    margin: 0; /* Remove default margins on h3 and h1 */
+  }
+  

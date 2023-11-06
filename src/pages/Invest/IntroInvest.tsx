@@ -3,7 +3,7 @@ import NavBar from "../../components/NavBar";
 import "./IntroInvest.css"
 
 
-const IntroInvest = () => {
+const IntroInvest: React.FC<{}> = () => {
     return ( 
         <div className="Intro">
             <NavBar />

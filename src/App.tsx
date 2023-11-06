@@ -1,19 +1,15 @@
-// import React from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import InvestPage from './pages/Invest/InvestPage';
 
-// import Body from "./components/Body";
-import IntroInvest from "./pages/Invest/IntroInvest";
-import "./App.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import {Navbar, Nav, Container} from 'react-bootstrap'
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<IntroInvest />} />
-
+          <Route path="/invest" element={<InvestPage />} />
+          
         </Routes>
       </BrowserRouter>
     </div>
